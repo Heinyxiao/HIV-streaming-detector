@@ -1,0 +1,12 @@
+name: hiv-detector
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.10
+  - samtools
+  - minimap2
+  - clair3
+  - pip
+  - pip:
+    - pyvcf
